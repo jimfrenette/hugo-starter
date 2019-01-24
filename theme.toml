@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+
+name = "Starter Theme"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+tags = ["website", "responsive", "blog"]
+features = ["posts", "shortcodes", "related content", "comments"]
+min_version = 0.30.2
+
+[author]
+  name = "Jim Frenette"
+  homepage = "https://github.com/jimfrenette"
