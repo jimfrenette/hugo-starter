@@ -2,7 +2,9 @@
 
 ## Installation
 
+For example, if your Hugo website is in the `www` folder.
 ```
+cd www
 git init
 git submodule add https://github.com/jimfrenette/hugo-starter.git themes/starter
 ```
