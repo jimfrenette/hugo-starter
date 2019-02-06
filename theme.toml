@@ -3,12 +3,12 @@
 name = "Starter Theme"
 license = "MIT"
 licenselink = "https://github.com/jimfrenette/hugo-starter/blob/master/LICENSE.md"
-description = ""
+description = "Blank starter theme with only normalized styles. Included is a webpack workflow for building javascript and css from sass with a live reload webpack development server."
 homepage = "https://jimfrenette.com/2019/02/hugo-static-site-generator-blank-starter-theme/"
 tags = ["website", "responsive", "blog"]
 features = ["posts", "shortcodes", "related content", "comments"]
-min_version = "0.41"
+min_version = "0.38"
 
 [author]
   name = "Jim Frenette"
-  homepage = "https://github.com/jimfrenette"
+  homepage = "https://jimfrenette.com"
