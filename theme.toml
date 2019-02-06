@@ -2,12 +2,12 @@
 
 name = "Starter Theme"
 license = "MIT"
-licenselink = ""
+licenselink = "https://github.com/jimfrenette/hugo-starter/blob/master/LICENSE.md"
 description = ""
-homepage = ""
+homepage = "https://jimfrenette.com/2019/02/hugo-static-site-generator-blank-starter-theme/"
 tags = ["website", "responsive", "blog"]
 features = ["posts", "shortcodes", "related content", "comments"]
-min_version = 0.30.2
+min_version = "0.41"
 
 [author]
   name = "Jim Frenette"
