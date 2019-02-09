@@ -9,6 +9,9 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin
   ],
+  output: {
+    path: path.resolve(__dirname, '../static/dist')
+  },
   module: {
     rules: [
       {
