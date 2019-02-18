@@ -1,3 +1,4 @@
 import '../sass/style.scss'
 
-alert('test');
+// uncoment tho alert to verify the build
+// alert('test');
