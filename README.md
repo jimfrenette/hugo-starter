@@ -1,5 +1,7 @@
 # Starter Theme for [Hugo](http://gohugo.io/)
 
+[Hugo Static Site Generator Blank Starter Theme](https://jimfrenette.com/2019/02/hugo-static-site-generator-blank-starter-theme/)
+
 ## Installation
 
 For example, if your Hugo website is in the `www` folder.
