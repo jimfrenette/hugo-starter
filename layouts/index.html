@@ -39,7 +39,7 @@ pages. */}}
 		on the outside */}}
 		{{ range (first 4 (after $n_posts $section)) }}
 		<h2>
-			<a href="{{ .URL }}">
+			<a href="{{ .Permalink }}">
 				{{ .Title }}
 			</a>
 		</h2>
@@ -47,7 +47,7 @@ pages. */}}
 
 		{{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
 		{{ with .Site.GetPage "section" $section_name }}
-		<a href="{{ .URL }}">All {{.Title }}</a>
+		<a href="{{ .Permalink }}">All {{.Title }}</a>
 		{{ end }}
 	</section>
 	{{ end }}
