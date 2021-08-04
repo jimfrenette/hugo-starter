@@ -1,14 +1,13 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   context: path.resolve(__dirname, '../src'),
+  plugins: [new MiniCssExtractPlugin()],
   entry: {
     app: ['./js/index.js']
   },
-  plugins: [
-    new MiniCssExtractPlugin
-  ],
   output: {
     path: path.resolve(__dirname, '../static/dist')
   },
@@ -20,9 +19,11 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader',
           {
-            loader: 'postcss-loader' },
+            loader: 'postcss-loader'
+          },
           {
-            loader: 'sass-loader' }
+            loader: 'sass-loader'
+          }
         ]
       },
       {
@@ -31,5 +32,11 @@ module.exports = {
         use: 'babel-loader'
       }
     ]
-  }
+  },
+  optimization: {
+    minimizer: [
+      `...`,
+      new CssMinimizerPlugin(),
+    ],
+  },
 }
