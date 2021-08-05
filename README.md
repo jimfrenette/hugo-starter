@@ -24,7 +24,7 @@ Preview the site, e.g., [`localhost:1313`](http://localhost:1313/)
 
 ## Webpack Dev UI
 
-Install node modules
+Install node modules - Requires Node v12 (lts/erbium)
 
 ```
 cd www/themes/starter
@@ -36,7 +36,7 @@ Unminified development build with sourcemaps
 
 ```
 cd www/themes/starter
-    
+
 npm run dev
 ```
 
@@ -44,7 +44,7 @@ Build for production with npm run build. CSS and JavaScript files will be output
 
 ```
 cd www/themes/starter
-    
+
 npm run build
 ```
 
