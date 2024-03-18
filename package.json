@@ -31,7 +31,7 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "terser-webpack-plugin": "^5.1.4",
-    "webpack": "^5.48.0",
+    "webpack": "^5.76.0",
     "webpack-cli": "^4.7.2",
     "webpack-merge": "^5.8.0",
     "webpack-nano": "^1.1.1"
